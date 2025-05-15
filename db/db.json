@@ -1,0 +1,40 @@
+{
+  "pets": [
+    {
+      "nome": "Pipoca",
+      "especie": "Cachorro",
+      "raca": "Border Collie ",
+      "idade": "5",
+      "sexo": "Fêmea",
+      "porte": "Grande",
+      "peso": "19",
+      "vacinado": "Sim",
+      "vermifugado": "Sim",
+      "castrado": "Sim",
+      "condicao": "Nenhuma",
+      "temperamento": "Dócil",
+      "criancas": "Sim",
+      "outrosPets": "Sim",
+      "localizacao": "Rua Serravite, 91, Bairro Floresta",
+      "id": "1"
+    },
+    {
+      "nome": "Jade",
+      "especie": "Cachorro",
+      "raca": "Yorkshire",
+      "idade": "10",
+      "sexo": "Fêmea",
+      "porte": "Pequeno",
+      "peso": "5",
+      "vacinado": "Sim",
+      "vermifugado": "Sim",
+      "castrado": "Sim",
+      "condicao": "Cega",
+      "temperamento": "Carente",
+      "criancas": "Sim",
+      "outrosPets": "Sim",
+      "localizacao": "Rua Deputado Bernadino Sena Figueiredo 773, Cidade Nova",
+      "id": "2"
+    }
+  ]
+}
