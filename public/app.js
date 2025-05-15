@@ -13,7 +13,7 @@ function readPets() {
         .then(response => {
             const pets = response.data;
             const tableBody = document.getElementById('table-pets');
-            tableBody.innerHTML = ''; // Limpa a tabela antes de adicionar os novos dados
+            tableBody.innerHTML = ''; 
 
             pets.forEach(pet => {
                 const row = document.createElement('tr');
@@ -45,7 +45,7 @@ function createPet(pet) {
     axios.post(apiUrl, pet)
         .then(response => {
             displayMessage('Pet inserido com sucesso!');
-            readPets(); // Atualiza a lista de pets após a inserção
+            readPets(); 
         })
         .catch(error => {
             console.error('Erro ao adicionar o pet:', error);
@@ -58,7 +58,7 @@ function updatePet(id, pet) {
     axios.put(`${apiUrl}/${id}`, pet)
         .then(response => {
             displayMessage('Pet atualizado com sucesso!');
-            readPets(); // Atualiza a lista de pets após a atualização
+            readPets(); 
         })
         .catch(error => {
             console.error('Erro ao atualizar o pet:', error);
@@ -71,7 +71,7 @@ function deletePet(id) {
     axios.delete(`${apiUrl}/${id}`)
         .then(response => {
             displayMessage('Pet excluído com sucesso!');
-            readPets(); // Atualiza a lista de pets após a exclusão
+            readPets(); 
         })
         .catch(error => {
             console.error('Erro ao excluir o pet:', error);
